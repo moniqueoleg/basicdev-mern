@@ -5,9 +5,9 @@ import {browserHistory, Router} from 'react-router';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import ItemStore from './stores/ItemStore';
 
-function render(){
+function render() {
 
-  ReactDOM.render(
+  ReactDOM.render (
     <Router history={browserHistory} routes={routes}/>,
     app
   );
@@ -15,7 +15,7 @@ function render(){
 }
 
 ItemStore.onChange(function(){
-  render();
+  render(); 
 });
 
 render();
