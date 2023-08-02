@@ -6,7 +6,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import ItemStore from './stores/ItemStore';
 
 function render() {
-
+ 
   ReactDOM.render (
     <Router history={browserHistory} routes={routes}/>,
     app
